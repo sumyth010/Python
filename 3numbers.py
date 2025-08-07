@@ -61,3 +61,10 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+
+# Random Number 
+import random 
+print (random.randrange(1,10))
+
+
