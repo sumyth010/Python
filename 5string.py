@@ -49,3 +49,73 @@ txt = "The best things in life are free!"
 if "expensive" not in txt:
     print("No,'expensive' is NOT present")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# String Slicing 
+b =  "Hello, World! "
+print(b[2:5])
+# 
+
+# Slice From the Start 
+b = "Hello, World!"
+print(b[:5])
+
+# Slice to the end
+b = "Hello, World!"
+print(b[2:])
+
+# Negative Indexing 
+b = "Hello, World"
+print(b[-5: -2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Modify Strings 
+# Upper Case
+a = "Hello, World!"
+print(a.upper())
+
+# Lower Case
+a = "Hello, World!"
+print(a.lower())
+
+# Remove Whitespace
+a = "Hello, World! "
+print(a.strip())
+# returns "Hello, World!"
+
+# Replace String 
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+# Split String
+a = "Hello, World!"
+print(a.split(","))
+# return ['Hello', 'World!']
