@@ -119,3 +119,80 @@ print(a.replace("H", "J"))
 a = "Hello, World!"
 print(a.split(","))
 # return ['Hello', 'World!']
+
+
+
+
+
+
+
+
+
+
+
+# String Concatenation
+# To concatenate, or combine, two string you can the +operator.
+
+a = "Hello"
+b = "world"
+c =  a + b
+print(c)
+
+
+
+
+
+
+
+
+# Format- String 
+# We cannot combine string and number like this 
+txt = 36
+# This will produce an error:
+# txt = "My name is John, I am" + age 
+print(txt)
+
+
+
+# F-string 
+age  = 36 
+txt = f"My name is John, I am {age} "
+print(txt)
+
+
+
+# Placeholder and Modifers
+# A placeholder can contain Varaibles, operation, Function, and Modifiers to format the value.
+
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Escape Character 
+txt = "We are the so-called \"Vikings\" from the north."
+
+#  single Quote   \'
+# Blackslash      \\
+# New Line      \n
+# Carriage Return \r
+# Tab          \t
+# Backspace    \b
+# From feed    \f
+# Octal Value   \ooo
+# Hex value    \xhh
